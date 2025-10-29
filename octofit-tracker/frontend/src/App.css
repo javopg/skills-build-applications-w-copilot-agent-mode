@@ -1,0 +1,71 @@
+
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f7e8ff 100%);
+  color: #222;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%) !important;
+  border-radius: 0.5rem;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+h2, h5, .card-title {
+  color: #6a11cb;
+  font-weight: 700;
+}
+
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(106,17,203,0.08);
+}
+.table-dark th {
+  background: #6a11cb !important;
+  color: #fff !important;
+}
+.btn-primary, .btn-success, .btn-info, .btn-warning {
+  border: none;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(106,17,203,0.12);
+}
+.btn-primary {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+}
+.btn-success {
+  background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+}
+.btn-info {
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+}
+.btn-warning {
+  background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
+}
+.card {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(106,17,203,0.10);
+}
+.App-link, a {
+  color: #2575fc !important;
+  font-weight: 500;
+}
+.modal-content {
+  border-radius: 0.5rem;
+}
+
+/* Logo alineado a la izquierda en la navbar */
+.octofit-logo {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Favicon: coloca tu favicon en public/favicon.ico */
